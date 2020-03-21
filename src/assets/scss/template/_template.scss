@@ -1,0 +1,64 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #F4F4F4 !important;
+
+}
+
+.container.header {
+  background: #F4F4F4;
+  padding-bottom: 0px !important;
+}
+
+.header-img{
+  background:#F4F4F4;
+  color: #F4F4F4;
+  padding-left:0px !important;
+  padding-right:0px !important;
+  padding-bottom: 0px !important;
+  img{
+  width: 140px !important;
+  height: 75px;
+  background:#F4F4F4;
+  color: #F4F4F4;
+ }
+}
+
+.first-p{
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-bottom: 0px !important;
+  & > table > tbody > tr > th > p{
+    margin-bottom: 0px !important;
+  }
+
+}
+
+.first-p-one{
+margin-bottom: 2px !important;
+}
+
+
+.order-row{
+padding-bottom: 0px !important;
+
+}
+
+.order{
+  background: #F2F5F8;
+  color: #F2F5F8;
+}
+
+
+.order-number{
+  padding-left: 15px !important;
+}
+
+.order-date{
+  padding-left: 40px !important;
+}
+
