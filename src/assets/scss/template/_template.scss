@@ -59,6 +59,48 @@ padding-bottom: 0px !important;
 }
 
 .order-date{
-  padding-left: 40px !important;
+  padding-left: 65px !important;
 }
 
+.break-line{
+color: $offwhite !important;
+background: $offwhite !important;
+margin-top: 0px;
+margin-bottom: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-top-width: 0px;
+height: 1px;
+
+
+}
+
+.item-title{
+margin-top: 10px !important;
+}
+
+.price{
+margin-bottom: 0px !important;
+}
+
+.tracking-info{
+color: #850000;
+}
+
+.tracking-num{
+text-decoration: underline;
+}
+
+.small-info{
+color: #677889 !important;
+}
+
+.img-one{
+  display: block;
+  width: 156px;
+  height: 177px;
+  margin-left: 110px !important;
+  margin-right: 0px !important;
+  margin-top: 40px !important;
+}
