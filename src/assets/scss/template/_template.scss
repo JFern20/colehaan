@@ -32,6 +32,7 @@ html,
   padding-left: 22px;
   padding-right: 22px;
   margin-bottom: 0px !important;
+  font-size: 16px !important;
   & > table > tbody > tr > th > p{
     margin-bottom: 0px !important;
   }
@@ -40,6 +41,7 @@ html,
 
 .first-p-one{
 margin-bottom: 2px !important;
+font-size: 16px !important;
 }
 
 
@@ -100,7 +102,52 @@ color: #677889 !important;
   display: block;
   width: 156px;
   height: 177px;
-  margin-left: 110px !important;
+  margin-left: 115px !important;
   margin-right: 0px !important;
   margin-top: 40px !important;
 }
+
+.address-info{
+  color: $black;
+  padding-left: 15px !important;
+}
+
+
+.footer-top{
+  color: #C6D3D9;
+  background:#C6D3D9;
+  height: 270px;
+}
+
+.header{
+ & > table > tbody > tr > th > h3{
+  margin-top: 15px !important;
+ }
+}
+
+.text-center{
+ margin-bottom: 20px !important; 
+
+}
+
+.icons{
+  width: 36px;
+  height: 36.5px;
+  margin-right: 0px;
+  margin-left: 65px;
+  padding-left: 60px !important;
+}
+
+.links{
+text-decoration: underline;
+font-size: 14px;
+width: 210px !important;
+hyphens: none;
+text-align: left;
+margin-bottom: 0px !important;
+}
+
+.right-space{
+ width: 50px !important;
+}
+
