@@ -113,6 +113,12 @@ color: #677889 !important;
 }
 
 
+.footer-top-background{
+padding-bottom: 0px !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+
 .footer-top{
   color: #C6D3D9;
   background:#C6D3D9;
@@ -135,7 +141,7 @@ color: #677889 !important;
   height: 36.5px;
   margin-right: 0px;
   margin-left: 65px;
-  padding-left: 60px !important;
+  padding-left: 75px !important;
 }
 
 .links{
@@ -149,5 +155,62 @@ margin-bottom: 0px !important;
 
 .right-space{
  width: 50px !important;
+}
+
+
+.footer-bottom-background{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+
+}
+.footer-bottom{
+  color: #C6D3D9;
+  background:#C6D3D9;
+  height: 370px;
+}
+
+.arrow{
+ width: 15px;
+ height: 15px;
+
+}
+
+.underline-footerfont{
+  font-size: 16px !important;
+  text-decoration: underline;
+  color: $black !important;
+
+}
+
+
+.footer-rows-left{
+padding-left: 20px !important;
+padding-top: 20px !important;
+}
+
+.footer-rows-right{
+padding-left: 250px !important;
+padding-top: 20px;
+}
+
+.icons{
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+  img{
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.menu-item{
+padding-right: 70px !important;
+padding-bottom: 0px !important;
+}
+
+.youtube-img{
+width: 39px !important;
+height: 27px !important;
+padding-bottom: 0px !important;
 }
 
