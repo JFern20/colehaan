@@ -1,17 +1,15 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
+html, body,
 
-// Body Styles 
-body,
-html, 
 .body {
-  background: #F4F4F4 !important;
-
+  background: green !important;
+  max-width: auto;
 }
 
-.container.header {
-  background: #F4F4F4;
+
+.header {
+  background: red !important;
   padding-bottom: 0px !important;
+  
 }
 
 .header-img{
@@ -42,6 +40,16 @@ html,
 .first-p-one{
 margin-bottom: 2px !important;
 font-size: 16px !important;
+
+
+  /*@media only screen and (max-width: #{$global-breakpoint}) {
+    padding-left: 0;
+  }*/
+}
+
+.first-p-center {
+font-size: 16px !important;
+
 }
 
 
@@ -55,17 +63,22 @@ padding-bottom: 0px !important;
 .order{
   background: #F2F5F8;
   color: #F2F5F8;
+  
 }
 
 
 .order-number{
-  padding-left: 10px !important;
+padding-left: 10px !important;
+
+  
 }
 
 .order-date{
-  padding-left: 65px !important;
-  padding-right:7px !important;
-  hyphens: none;
+ padding-right: 0px;
+ padding-left: 75px !important;
+ width: 200px;
+
+
 }
 
 .break-line{
@@ -146,6 +159,7 @@ padding-right: 0px !important;
   margin-right: 0px;
   margin-left: 65px;
   padding-left: 75px !important;
+
 }
 
 .links{
@@ -256,15 +270,15 @@ margin-bottom: 0px !important;
   margin-bottom: 5px !important;
 }
 
-.address-bottom{
+.address-bottom {
 width: 200px;
 color: #677789 !important;
 padding-left: 55px !important;
 }
 
 
-@media screen and (max-width: 580px) {
-
-
+@media screen and (max-width: 596px) {
+  body {
+    position: fixed;
+  }
 }
-
