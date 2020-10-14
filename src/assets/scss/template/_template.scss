@@ -1,13 +1,17 @@
 html, body,
 
+
+
 .body {
-  background: green !important;
-  max-width: auto;
+  background: #F4F4F4;
+  /*max-width: auto;*/
+  
+  
 }
 
 
 .header {
-  background: red !important;
+  background: #F4F4F4;
   padding-bottom: 0px !important;
   
 }
@@ -42,9 +46,7 @@ margin-bottom: 2px !important;
 font-size: 16px !important;
 
 
-  /*@media only screen and (max-width: #{$global-breakpoint}) {
-    padding-left: 0;
-  }*/
+  
 }
 
 .first-p-center {
@@ -245,10 +247,13 @@ border-top: 4px !important;
   color: #677789 !important;
 
 }
+tr th .colehaan{
+  padding-left: 115px !important;
+}
 
 .colehaan{
  color: #677789 !important;
- padding-left: 40px !important;
+ padding-left: 60px !important;
  padding-bottom: 0px !important;
 }
 
@@ -277,8 +282,42 @@ padding-left: 55px !important;
 }
 
 
-@media screen and (max-width: 59q6px) {
-  body {
-    position: fixed;
-  }
+
+
+
+
+
+
+@media only screen and (max-width: 550px){
+ 
+   * {
+  /*background-color: red;
+  color: red; */
+  margin: 0;
+  max-width: 100%;
+ }
+
+ .test2{
+  width: 580px !important;
+ }
+
+ th .order-date{
+  white-space: nowrap !important;
+  width: 218px !important;
+  padding-left: 0px !important;
+
+}
+
+ .img-one{
+  display: block;
+  width: 156px;
+  height: 177px;
+  margin-left: 115px !important;
+  margin-right: 0px !important;
+  margin-top: 40px !important;
+  padding-left: 100px !important;
+}
+
+
+
 }
